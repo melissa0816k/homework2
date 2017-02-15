@@ -1,1 +1,45 @@
-
+heading {
+   color: cornflowerblue;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 30px 
+}
+header { 
+    color: deepskyblue;
+    font-family: Georgia, serif;
+    font-size: 20px
+}
+button{ 
+    padding:7px 14px;
+    text-align:center;
+    text-decoration:none;
+    margin:2px 1px
+}
+button.btn-primary {
+    border:3px double black
+}
+img {
+    width:500px;
+    height:315px
+}  
+#right { 
+    margin-left:40px;
+    margin-right:20px;
+    margin-top:60px;
+    margin-bottom:5px;
+    position: relative
+}
+#left { 
+    border:3px solid lightseagreen;
+    position: relative
+}
+span.bold{
+    font-size:1em;
+    font-weight:bold;
+    font-variant: small-caps
+}
+button.btn-style{
+    border:3px solid white;
+    border-radius: 35px;
+    background-color:lightgrey;
+    font-color: white
+}

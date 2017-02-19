@@ -1,17 +1,21 @@
-heading {
+body { 
+    background-image:"http://www.publicdomainpictures.net/pictures/130000/velka/turquoise-top-gradient-background.jpg";
+    background-repeat:repeat-y
+}
+header {
    color: white;
    font-family: 'Times New Roman', Times, serif;
    font-size: 30px 
 }
-header { 
+h3 { 
     color: deepskyblue;
     font-family: Georgia, serif
 }
 .bgimage {
    background-image: url("http://www.hdwallpapers.in/walls/aurora_show-wide.jpg");
    background-position: center;
-   backgound-size:cover;
-   height:200px
+   background-size: cover;
+   height:100px
 }
 
 button{ 
@@ -27,7 +31,6 @@ img {
     width:500px;
     height:315px
 }  
-}
 span.bold{
     font-size:1em;
     font-weight:bold;
@@ -36,6 +39,5 @@ span.bold{
 button.btn-style{
     border:3px solid white;
     border-radius: 35px;
-    background-color:lightgrey;
-    font-color: white
+    background-color:lightgrey
 }

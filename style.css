@@ -1,41 +1,9 @@
-body { 
-    background-image:"http://www.publicdomainpictures.net/pictures/130000/velka/turquoise-top-gradient-background.jpg";
-    background-repeat:repeat-y
-}
-
 h3 { 
     color: deepskyblue;
     font-family: Georgia, serif
 }
 h2 {
     font-size: 26px
-}
-.bgimage {
-   background-image: url("http://abuselaw.co.uk//wp-content/uploads/2013/01/abss1.jpg");
-   background-position: center;
-   background-size: auto;
-   background-repeat: no-repeat;
-   text-shadow: grey 0.5em 0.5em 0.5em;
-   -webkit-text-fill-color:white;
-   font-family: serif;
-   font-size:18px;
-   text-align:center
-}
-.quote {
-    text-align: center;
-    font-style: italic;
-    font-size: 20;
-}
-description {
-    text-align: center;
-}
-.image-with-caption {
-    text-align: center;
-        font-style: italic;
-}
-.video-with-caption {
-    text-align: center;
-        font-style: italic;
 }
 h6 {
     font-size:25
@@ -67,4 +35,14 @@ strong{
     text-align: center;
     text-shadow: lightpink 0.3em 0.3em;
     -webkit-text-fill-color: mediumvioletred
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+* {
+    box-sizing:border-box
+}
+div { 
+    display:block
 }
